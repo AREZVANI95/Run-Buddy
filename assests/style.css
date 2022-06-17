@@ -1,4 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    font-family: Helvetica, Arial, sans-serif;
-    background-color: rgb(34, 82, 97);
-  }
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: rgb(30, 76, 90);
+  color: #22757e;
+}
+
+header {
+  padding: 20px 35px;
+  background-color: #39a6b2;
+  margin-bottom: 1px;
+}
+
+header h1 {
+  margin: 0;
+  color: #fce138;
+  font-size: 36px;
+  font-weight: bold;
+  display: inline;
+}
+
+header a {
+  text-decoration: none;
+  color: #fce138;
+}
+
+header nav {
+  float: right;
+  margin: 7px 0;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
